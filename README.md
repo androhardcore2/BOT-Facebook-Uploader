@@ -34,4 +34,20 @@ Aplikasi ini memiliki berbagai fitur seperti pengaturan penjadwalan upload, jeda
    pip install -r requirements.txt
 
 ```
-3.
+3. Buat/Edit File Konfigurasi file settings.json di direktori utama dengan format berikut:
+   ```bash
+   {
+    "access_token": "YOUR_FACEBOOK_ACCESS_TOKEN",
+    "page_id": "YOUR_FACEBOOK_PAGE_ID" }
+  Ganti YOUR_FACEBOOK_ACCESS_TOKEN dan YOUR_FACEBOOK_PAGE_ID dengan informasi yang sesuai.
+4. Jalankan Aplikasi Jalankan aplikasi dengan perintah:
+```bash
+    python main.py
+```
+
+Cara Penggunaan
+1. Pilih folder video menggunakan tombol Pilih Folder Video.
+2. Tambahkan caption dan deskripsi untuk video.
+3. Atur waktu penjadwalan upload (opsional).
+4. Atur jeda waktu antar upload video.
+5. Klik tombol Mulai Upload Otomatis untuk memulai proses upload.
