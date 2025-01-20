@@ -16,9 +16,11 @@ Aplikasi ini memiliki berbagai fitur seperti pengaturan penjadwalan upload, jeda
 - Modul Python yang diperlukan:
   - `PyQt5`
   - `requests`
-  -  requests
-  - import time
-    datetime import datetime, timedelta, timezone
+  - `time`
+  - `requests`
+  - `datetime`
+  - `timedelta`
+  - `timezone`
 
 ## Instalasi
 1. **Clone Repository**
@@ -30,3 +32,6 @@ Aplikasi ini memiliki berbagai fitur seperti pengaturan penjadwalan upload, jeda
 2. Install Dependencies Gunakan pip untuk menginstal dependensi yang dibutuhkan:
  ```bash
    pip install -r requirements.txt
+
+```
+3.
