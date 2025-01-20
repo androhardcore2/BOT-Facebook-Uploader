@@ -1,6 +1,7 @@
 # Facebook Video Uploader Bot
 
-**Facebook Video Uploader Bot** adalah aplikasi desktop berbasis Python dengan GUI yang dirancang untuk mempermudah proses upload video secara otomatis ke halaman Facebook. Aplikasi ini memiliki berbagai fitur seperti pengaturan penjadwalan upload, jeda antar upload, dan pengelolaan video dalam folder.
+**Facebook Video Uploader Bot** adalah aplikasi desktop berbasis Python dengan GUI yang dirancang untuk mempermudah proses upload video secara otomatis ke halaman Facebook.
+Aplikasi ini memiliki berbagai fitur seperti pengaturan penjadwalan upload, jeda antar upload, dan pengelolaan video dalam folder.
 
 ## Fitur Utama
 - **Upload Otomatis**: Mengupload semua video dari folder yang dipilih ke halaman Facebook secara otomatis.
@@ -15,6 +16,9 @@
 - Modul Python yang diperlukan:
   - `PyQt5`
   - `requests`
+  -  requests
+  - import time
+    datetime import datetime, timedelta, timezone
 
 ## Instalasi
 1. **Clone Repository**
@@ -23,3 +27,6 @@
 
    cd facebook-video-uploader-bot
 
+2. Install Dependencies Gunakan pip untuk menginstal dependensi yang dibutuhkan:
+ ```bash
+   pip install -r requirements.txt
